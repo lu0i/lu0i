@@ -16,7 +16,7 @@ Day to day I handle 1st- and 2nd-line support, and 3rd-line cases when needed, f
 
 ## Projects
 
-| | |
+| Project | Description |
 |:--|:--|
 | **[siec-ip](https://github.com/lu0i/siec-ip)**<br><sub>Python · Docker · GitHub Actions</sub> | Home network inventory and monitoring. Discovers every device on the LAN (ping sweep + ARP), tracks devices by MAC address with IP history, fingerprints 28 common services and flags devices that appeared in the last 24 hours, all in a searchable web dashboard. Single Python file using only the standard library; runs with Docker, systemd or a Proxmox LXC container, and a Windows `.exe` is built in CI. Includes a documented threat model in [`SECURITY.md`](https://github.com/lu0i/siec-ip/blob/main/SECURITY.md). |
 | **AI SOC Agent**<br><sub>LLM · SIEM</sub> | Thesis project: an AI agent that assists analysts with SIEM alert triage. *In progress, not public yet.* |
